@@ -1,0 +1,106 @@
+\documentclass[pr-br,twoside,onehalfspacing,bsc]{risethesis}
+% %\documentclass[p4-br,twoside,onehalfspacing,bsc]{risethesis}
+% %\usepackage[brazilian]{babel} % estas quatro linhas
+% %\usepackage[utf8]{inputenc}
+
+
+
+\usepackage{natbib}
+\usepackage{supertabular}
+\usepackage{microtype}
+\usepackage{lscape}
+
+
+%% Change the following pdf author attribute name to your name.
+\usepackage[linkcolor=blue,citecolor=blue,urlcolor=blue,colorlinks,pdfpagelabels,pdftitle={B.Sc. Thesis in Information Systems},pdfauthor={Vinicius Lins Gesteira}]{hyperref}
+
+% %\providecommand{\presentationpage}[1]{}
+
+\address{SALVADOR}
+
+\universitypt{Federal University of Bahia}
+
+\departmentpt{Computer Sciences House}
+
+
+\programpt{Information Systems Collegiate}
+
+\majorfieldpt{Information Systems}
+
+
+
+\title{MEMORYSTROOP: A Mobile Game Designed for ADHD Children}
+\date{june/2016}
+
+\author{Vinicius Lins Gesteira}
+\adviser{Phd. Frederico Dur\~{a}o}
+% % \coadviser{Prof. Dr. Neander Abreu}
+
+\begin{document}
+
+\frontmatter
+\let\cleardoublepage\clearpage
+\frontpage
+\presentationpage
+
+%\begin{dedicatory}
+
+%\end{dedicatory}
+
+\acknowledgements
+
+
+
+
+
+
+
+%\resumo
+% Escreva seu resumo no arquivo resumo.tex
+% input{resumo}
+
+\abstract
+% Write your abstract in a file called abstract.tex
+\input{abstract}
+\let\cleardoublepage\clearpage
+% Summary (tables of contents)
+\tableofcontents
+
+% List of figures
+\listoffigures
+
+% List of tables
+%\listoftables
+
+% List of acronyms
+% Acronyms manual: http://linorg.usp.br/CTAN/macros/latex/contrib/acronym/acronym.pdf
+\listofacronyms
+\input{acronyms}
+\let\cleardoublepage\clearpage
+
+% List of listings
+%\lstlistoflistings
+
+\mainmatter
+
+\include{chapters/introduction/main}
+% %\let\cleardoublepage\clearpage
+\include{chapters/adhd/main}
+\include{chapters/gamification/main}
+\include{chapters/desenvolvimento/main}
+%\include{chapters/experiment/main}
+\include{chapters/conclusion/main}
+
+
+\bibliographystyle{natbib}
+\addcontentsline{toc}{chapter}{\bibliographytocname}
+\bibliography{ref}
+
+% Appendix
+\clearpage
+\addappheadtotoc
+%\appendix
+%\appendixpage
+% %\include{appendix/experiment-instruments}
+
+\end{document}

@@ -1,0 +1,120 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: chapters/introduction/main.aux
+A level-1 auxiliary file: chapters/adhd/main.aux
+A level-1 auxiliary file: chapters/gamification/main.aux
+A level-1 auxiliary file: chapters/desenvolvimento/main.aux
+A level-1 auxiliary file: chapters/conclusion/main.aux
+The style file: natbib.bst
+Database file #1: ref.bib
+Warning--entry type for "Villa" isn't style-file defined
+--line 81 of file ref.bib
+I was expecting a `,' or a `}'---line 221 of file ref.bib
+ :  
+ :  publisher={American Psychiatric Association},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "Zich" isn't style-file defined
+--line 293 of file ref.bib
+Repeated entry---line 1411 of file ref.bib
+ : @article{Zich
+ :              ,
+I'm skipping whatever remains of this entry
+A bad cross reference---entry "conf/mue/Yamakami13a"
+refers to entry "conf/mue/2013", which doesn't exist
+A bad cross reference---entry "conf/cts/Aud13"
+refers to entry "conf/cts/2013", which doesn't exist
+Warning--I didn't find a database entry for "child_example"
+Warning--I didn't find a database entry for "Johnstone-2013"
+Warning--I didn't find a database entry for "Nemeth"
+Warning--I didn't find a database entry for "Oliveira"
+Warning--I didn't find a database entry for "android-official"
+Warning--I didn't find a database entry for "conf/cts/2013"
+Warning--I didn't find a database entry for "conf/mue/2013"
+Too many commas in name 1 of "Santos, Fabio E. G.; Bastos, Angela P. Z.; Andrade, Leila C. V.; Revoredo, Kate; Mattos, Paulo" for entry brasileiros
+while executing---line 1207 of file natbib.bst
+Too many commas in name 1 of "Santos, Fabio E. G.; Bastos, Angela P. Z.; Andrade, Leila C. V.; Revoredo, Kate; Mattos, Paulo" for entry brasileiros
+while executing---line 1207 of file natbib.bst
+Too many commas in name 1 of "Santos, Fabio E. G.; Bastos, Angela P. Z.; Andrade, Leila C. V.; Revoredo, Kate; Mattos, Paulo" for entry brasileiros
+while executing---line 1207 of file natbib.bst
+Too many commas in name 1 of "Santos, Fabio E. G.; Bastos, Angela P. Z.; Andrade, Leila C. V.; Revoredo, Kate; Mattos, Paulo" for entry brasileiros
+while executing---line 1207 of file natbib.bst
+Too many commas in name 1 of "Santos, Fabio E. G.; Bastos, Angela P. Z.; Andrade, Leila C. V.; Revoredo, Kate; Mattos, Paulo" for entry brasileiros
+while executing---line 1207 of file natbib.bst
+Too many commas in name 1 of "Santos, Fabio E. G.; Bastos, Angela P. Z.; Andrade, Leila C. V.; Revoredo, Kate; Mattos, Paulo" for entry brasileiros
+while executing---line 1207 of file natbib.bst
+Too many commas in name 1 of "Olga Pykhtina, Madeline Balaam, Gavin Wood, Sue Pattison, Patrick Olivier" for entry design
+while executing---line 1207 of file natbib.bst
+Too many commas in name 1 of "Olga Pykhtina, Madeline Balaam, Gavin Wood, Sue Pattison, Patrick Olivier" for entry design
+while executing---line 1207 of file natbib.bst
+Too many commas in name 1 of "Olga Pykhtina, Madeline Balaam, Gavin Wood, Sue Pattison, Patrick Olivier" for entry design
+while executing---line 1207 of file natbib.bst
+Too many commas in name 1 of "Olga Pykhtina, Madeline Balaam, Gavin Wood, Sue Pattison, Patrick Olivier" for entry design
+while executing---line 1207 of file natbib.bst
+Warning--empty journal in Bunchball
+Warning--empty journal in Medina
+Too many commas in name 1 of "Olga Pykhtina, Madeline Balaam, Gavin Wood, Sue Pattison, Patrick Olivier" for entry design
+while executing---line 1279 of file natbib.bst
+Too many commas in name 1 of "Olga Pykhtina, Madeline Balaam, Gavin Wood, Sue Pattison, Patrick Olivier" for entry design
+while executing---line 1279 of file natbib.bst
+Too many commas in name 1 of "Olga Pykhtina, Madeline Balaam, Gavin Wood, Sue Pattison, Patrick Olivier" for entry design
+while executing---line 1279 of file natbib.bst
+Too many commas in name 1 of "Olga Pykhtina, Madeline Balaam, Gavin Wood, Sue Pattison, Patrick Olivier" for entry design
+while executing---line 1279 of file natbib.bst
+Warning--empty journal in brainGames
+Too many commas in name 1 of "Santos, Fabio E. G.; Bastos, Angela P. Z.; Andrade, Leila C. V.; Revoredo, Kate; Mattos, Paulo" for entry brasileiros
+while executing---line 1279 of file natbib.bst
+Too many commas in name 1 of "Santos, Fabio E. G.; Bastos, Angela P. Z.; Andrade, Leila C. V.; Revoredo, Kate; Mattos, Paulo" for entry brasileiros
+while executing---line 1279 of file natbib.bst
+Too many commas in name 1 of "Santos, Fabio E. G.; Bastos, Angela P. Z.; Andrade, Leila C. V.; Revoredo, Kate; Mattos, Paulo" for entry brasileiros
+while executing---line 1279 of file natbib.bst
+Too many commas in name 1 of "Santos, Fabio E. G.; Bastos, Angela P. Z.; Andrade, Leila C. V.; Revoredo, Kate; Mattos, Paulo" for entry brasileiros
+while executing---line 1279 of file natbib.bst
+Too many commas in name 1 of "Santos, Fabio E. G.; Bastos, Angela P. Z.; Andrade, Leila C. V.; Revoredo, Kate; Mattos, Paulo" for entry brasileiros
+while executing---line 1279 of file natbib.bst
+Too many commas in name 1 of "Santos, Fabio E. G.; Bastos, Angela P. Z.; Andrade, Leila C. V.; Revoredo, Kate; Mattos, Paulo" for entry brasileiros
+while executing---line 1279 of file natbib.bst
+Warning--empty booktitle in brasileiros
+You've used 31 entries,
+            2378 wiz_defined-function locations,
+            730 strings with 9588 characters,
+and the built_in function-call counts, 11623 in all, are:
+= -- 1208
+> -- 436
+< -- 34
++ -- 127
+- -- 120
+* -- 814
+:= -- 2100
+add.period$ -- 113
+call.type$ -- 31
+change.case$ -- 188
+chr.to.int$ -- 30
+cite$ -- 35
+duplicate$ -- 547
+empty$ -- 803
+format.name$ -- 157
+if$ -- 2329
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 27
+newline$ -- 151
+num.names$ -- 128
+pop$ -- 188
+preamble$ -- 1
+purify$ -- 189
+quote$ -- 0
+skip$ -- 405
+stack$ -- 0
+substring$ -- 588
+swap$ -- 96
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 270
+warning$ -- 4
+while$ -- 110
+width$ -- 0
+write$ -- 387
+(There were 24 error messages)
