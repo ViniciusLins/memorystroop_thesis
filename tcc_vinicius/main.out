@@ -6,27 +6,31 @@
 \BOOKMARK [1][-]{section.1.3}{Objectives}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.4}{Out of Scope}{chapter.1}% 7
 \BOOKMARK [1][-]{section.1.5}{Statement of the Contributions}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.6}{Coursework Structure}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.6}{Graduate Thesis Structure}{chapter.1}% 9
 \BOOKMARK [0][-]{chapter.2}{ADHD}{}% 10
-\BOOKMARK [1][-]{section.2.1}{ADHD features in childhood and in teenage}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.1}{ADHD Features in Childhood and in Teenage}{chapter.2}% 11
 \BOOKMARK [1][-]{section.2.2}{Stroop Effect}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.3}{Use of computing for play therapy involving ADHD children}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.4}{Memory Stroop: implementing a system to explore the correlation between memory and ADHD}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Use of Computing for Play Therapy involving ADHD Children}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.4}{Memory Stroop: Implementing a System to Explore the Correlation between Memory and ADHD}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.5}{Summary}{chapter.2}% 15
 \BOOKMARK [0][-]{chapter.3}{Gamification}{}% 16
 \BOOKMARK [1][-]{section.3.1}{Concept}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.2}{Place in gaming taxonomy, subtypes and variations}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.3}{Elements of gamification}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.4}{Uses and real life cases}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.5}{Related work}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.2}{Place in Gaming Taxonomy, Subtypes and Variations}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.3}{Elements of Gamification}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.4}{Uses and Real Life Cases}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.5}{Related Work}{chapter.3}% 21
 \BOOKMARK [1][-]{section.3.6}{Summary}{chapter.3}% 22
 \BOOKMARK [0][-]{chapter.4}{MemoryStroop: Concept, Design and Implementation}{}% 23
-\BOOKMARK [1][-]{section.4.1}{Requirements}{chapter.4}% 24
-\BOOKMARK [2][-]{subsection.4.1.1}{Requirement prospection}{section.4.1}% 25
-\BOOKMARK [2][-]{subsection.4.1.2}{Defining requirements}{section.4.1}% 26
-\BOOKMARK [2][-]{subsection.4.1.3}{Technologies for software Development}{section.4.1}% 27
-\BOOKMARK [1][-]{section.4.2}{General features and application architecture}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.3}{Summary}{chapter.4}% 29
-\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 30
-\BOOKMARK [1][-]{subsection.5.0.1}{Coming studies}{chapter.5}% 31
-\BOOKMARK [0][-]{subsection.5.0.1}{Bibliography}{}% 32
+\BOOKMARK [1][-]{section.4.1}{Introduction and Requirements}{chapter.4}% 24
+\BOOKMARK [2][-]{subsection.4.1.1}{Requirement Prospection}{section.4.1}% 25
+\BOOKMARK [2][-]{subsection.4.1.2}{Defining Requirements}{section.4.1}% 26
+\BOOKMARK [2][-]{subsection.4.1.3}{Technologies Applied to Software Development}{section.4.1}% 27
+\BOOKMARK [1][-]{section.4.2}{Application Architecture}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.2.1}{Game Workflow}{section.4.2}% 29
+\BOOKMARK [1][-]{section.4.3}{Summary}{chapter.4}% 30
+\BOOKMARK [0][-]{chapter.5}{Experiment}{}% 31
+\BOOKMARK [1][-]{section.5.1}{Nielsen's heuristics and usability evaluation}{chapter.5}% 32
+\BOOKMARK [1][-]{section.5.2}{Summary}{chapter.5}% 33
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 34
+\BOOKMARK [1][-]{section.6.1}{Future works}{chapter.6}% 35
+\BOOKMARK [0][-]{section.6.1}{Bibliography}{}% 36

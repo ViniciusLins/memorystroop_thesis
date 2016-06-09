@@ -3,6 +3,9 @@
 % %\usepackage[brazilian]{babel} % estas quatro linhas
 % %\usepackage[utf8]{inputenc}
 
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.4} 
 
 
 \usepackage{natbib}
@@ -20,21 +23,21 @@
 
 \universitypt{Federal University of Bahia}
 
-\departmentpt{Computer Sciences House}
+\departmentpt{Computer Sciences Department}
 
 
-\programpt{Information Systems Collegiate}
+\programpt{Information Systems}
 
 \majorfieldpt{Information Systems}
 
 
 
-\title{MEMORYSTROOP: A Mobile Game Designed for ADHD Children}
+\title{MEMORYSTROOP: A Mobile Game for ADHD Children}
 \date{june/2016}
 
 \author{Vinicius Lins Gesteira}
 \adviser{Phd. Frederico Dur\~{a}o}
-% % \coadviser{Prof. Dr. Neander Abreu}
+
 
 \begin{document}
 
@@ -49,16 +52,12 @@
 
 \acknowledgements
 
-
-
-
-
-
+First of all, I need to express a special acknowledgment for all support and relevant lessons of my advisor professor Frederico Dur\~{a}o. Afterwards, I thank humbly to professors Tatiane Nogueira Rios and Vaninha Vieira by accepting to evaluate this graduate thesis, altogether professor Dur\~{a}o.
+I also thank Ivana Lins, my mother, and my friends Nilton Vasques, Roson Purificação, Larissa Kiana, Victor Nunes, Ana  \'Iris Carvalho, R\^omulo Aguiar, Stefanie Marina Cairo, Brian Santana, S\'ergio Villa, Lycia Scharmer, Tomaz Lima, D\'ebora Allicia and Carlos Eduardo Santana.
 
 %\resumo
 % Escreva seu resumo no arquivo resumo.tex
 % input{resumo}
-
 \abstract
 % Write your abstract in a file called abstract.tex
 \input{abstract}
@@ -88,7 +87,7 @@
 \include{chapters/adhd/main}
 \include{chapters/gamification/main}
 \include{chapters/desenvolvimento/main}
-%\include{chapters/experiment/main}
+\include{chapters/experiment/main}
 \include{chapters/conclusion/main}
 
 
@@ -97,10 +96,10 @@
 \bibliography{ref}
 
 % Appendix
-\clearpage
-\addappheadtotoc
+%\clearpage
+%\addappheadtotoc
 %\appendix
 %\appendixpage
-% %\include{appendix/experiment-instruments}
+%\include{appendix/experiment-instruments}
 
 \end{document}

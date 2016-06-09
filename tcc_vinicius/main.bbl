@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[Android(????)Android]{android-official}
+Android (????).
+\newblock Android platform versions.
+\newblock {\url{http://developer.android.com/about/dashboards/index.html}}.
+
 \bibitem[Association(2013a)Association]{dsm-american}
 Association, A.~P. (2013a).
 \newblock {\em Diagnostic and Statistical Manual of Mental Disorders\/}.
@@ -101,6 +106,12 @@ Huotari, K. and Hamari, J. (2012).
 \newblock In {\em Proceeding of the 16th International Academic MindTrek
   Conference\/}, MindTrek '12, pages 17--22, New York, NY, USA. ACM.
 
+\bibitem[Johnstone(2013)Johnstone]{Johnstone-2013}
+Johnstone, S. (2013).
+\newblock Computer gaming and adhd: Potential positive influences on behavior
+  [opinion].
+\newblock {\em IEEE Technology and Society Magazine\/}, {\bf 32}.
+
 \bibitem[Kelland(2012)Kelland]{gamehealth}
 Kelland, K. (2012).
 \newblock Gamification: Drugmakers and health campaigners turn to games to
@@ -118,7 +129,7 @@ Lansbergen, M.~M. and J.~Leon~Kenemans, H. v.~E. (2007).
 \bibitem[Leuzinger-Bohleber(2010)Leuzinger-Bohleber]{Psychoanalytic}
 Leuzinger-Bohleber, M. (2010).
 \newblock Psychoanalytic preventions/interventions and playing
-  “rough-and-tumble” games: alternatives to medical treatments of children
+  ``rough-and-tumble'' games: alternatives to medical treatments of children
   suffering from adhd.
 \newblock {\em International Journal of Applied Psychoanalytic Studies\/}, {\bf
   7}.
@@ -133,11 +144,32 @@ MacLeod, C.~M. (1991).
 MEDINA, B. (2013).
 \newblock Gamifica\c{c}\~ao aplicada ao contexto de neg\'ocios.
 
+\bibitem[Nemeth(1997)Nemeth]{Nemeth}
+Nemeth, D.~G., C. C. C. . L.~D. (1997).
+\newblock A video game computer sub-program to modify the disinhibition process
+  in adhd adolescents :.
+\newblock {\em Archives of Clinical Neuropsychology\/}, {\bf 12}.
+
 \bibitem[Olga~Pykhtina(2012)Olga~Pykhtina]{design}
 Olga~Pykhtina, Madeline~Balaam, G. W. S. P. P.~O. (2012).
 \newblock Designing for attention deficit hyperactivity disorder in play
   therapy: the case of magic land.
 \newblock {\em DIS\/}.
+
+\bibitem[Oliveira(2014)Oliveira]{Oliveira}
+Oliveira, I. (2014).
+\newblock Concepts of analysis for creating a conceptual framework for the use
+  of gamification as aid to the cognitive development of children with adhd.
+\newblock {\em 15th ERGODESIGN\/}.
+
+\bibitem[Ordas(2016)Ordas]{gamification_image}
+Ordas, A. (2016).
+
+\bibitem[Prat(2002)Prat]{Debr-2002}
+Prat, D. L. L. C.~S. (2002).
+\newblock Working memory and stroop interference: An individual differences
+  investigation.
+\newblock {\em Memory \& Cognition\/}, {\bf 30}.
 
 \bibitem[Randolph(2012)Randolph]{brainGames}
 Randolph, S. C. W. D. H. T. M. A.~B. (2012).
@@ -167,6 +199,10 @@ Stroop, J.~R. (1935).
 Villa, S. A.~C. (2014).
 \newblock Cores: Um jogo para tablets e smartphones android com foco na
   melhoria da aten\c{c}\~{a}o e controle inibit\'{o}rio de crian\c{c}as.
+
+\bibitem[Works(2016)Works]{child_example}
+Works, A.~P. (2016).
+\newblock A back to school guide for children with adhd.
 
 \bibitem[Yamakami(2013)Yamakami]{conf/mue/Yamakami13a}
 Yamakami, T. (2013).

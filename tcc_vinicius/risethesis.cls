@@ -141,7 +141,7 @@
 
 % Portuguese
 \if\@language0
-  \gdef\@bachelordissertation{Coursework}
+  \gdef\@bachelordissertation{Graduate thesis}
   \gdef\@mastersdissertation{Dissertação de Mestrado}
   \gdef\@phdqualifying{Monografia de Qualificação}
   \gdef\@phdproposal{Proposta de Tese de Doutorado}
@@ -149,7 +149,7 @@
   \gdef\@bachelordegree{Bacharel}
   \gdef\@mastersdegree{Mestre}
   \gdef\@phddegree{Doutor}
-  \gdef\@maleadvisertitle{Adviser}
+  \gdef\@maleadvisertitle{Advisor}
   \gdef\@femaleadvisertitle{Orientadora}
   \gdef\@malecoadvisertitle{Co-Orientador}
   \gdef\@femalecoadvisertitle{Co-Orientadora}
@@ -351,7 +351,7 @@
 
 \gdef\@presentationtext{%
 \if\@language0
-A coursework presented to
+A Graduate Thesis presented to
 \@programpt\ of \if\@showdepartment1\@departmentpt\ \else\@institutept\ \fi
 of \@universitypt\ in partial fulfillment of the
 requirements for the degree of Bsc. in \@majorfieldpt.

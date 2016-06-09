@@ -1,22 +1,33 @@
 \chapter{MemoryStroop: Concept, Design and Implementation}
 \label{ch:development}
 
-In this chapter, it is presented the guidelines of our implementation with the requirements' analysis, the technical aspects of its development, and the general work  (the conduction of this research is only presented in the next chapter, `Experiment'). After presenting requirements' basis as we indicated in previous chapter, it is time to consolidate for validating it with its targeted final users, in this case, ADHD children. As we underlined before, a gamified application have to deal, to balance funny features with serious aims in order to turn practical but awful tasks more pleasant. This is the main principle of this thesis, that can be shown in every section of the present chapter, where we finally evaluate the core features.
+In this chapter, it is presented the guidelines of the implementation with the requirements' analysis, the technical aspects of its development, and the general work  (this research is only presented in the next chapter, `Experiment'). After presenting requirements' basis as it was indicated in previous chapter, it is time to consolidate for validating it with its targeted final users, in this case, ADHD children. As underlined before, a gamified application has to deal, to balance funny features with serious aims in order to turn practical but awful tasks more pleasant. This is the main principle of this thesis, that can be shown in every section of the present chapter, where it could finally evaluate the core features.
 
-\section{Requirements}
+\section{Introduction and Requirements}
 
-The requirements are based in the release of a previous gamified  application for ADHD children and in an idea collected from a scientific article of Psychology. First, it is necessary explain the contribution of the let worth foundations for the present work. As expressed other times before, our application, MemoryStroop is inspired by the research and the application made by S\'{e}rgio Villa \citep{Villa}. However, now we have a new and quite different application, although both share some similarities. To starts, the main contribution of Villa's work is its feedback of psychologists, computer science students and non-ADHD children the tested the game, name only ``Cores'' (Colors, in Portuguese). Villa submitted multiple-answer questionnaires of usability analysis in order to check quality mixed with some open questions in order to present the positive aspects and possible ameliorations to another features. 
+The requirements are based in the release of a previous gamified  application for ADHD children and in an idea collected from a scientific article of Psychology. First, it is necessary explain the fundamental contribution for the present work. As expressed other times before, the application MemoryStroop is inspired by the research and the application made by S\'{e}rgio Villa \citep{Villa}. As one can see in images below
 
-\subsection{Requirement prospection}
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[width=14cm]{chapters/desenvolvimento/img/fase1.png}
+  \caption[First and second levels of Villa \textit{Colors}.]{It is possible to see the growing difficult by adding more conflicting stimuli \cite{Villa}. `Azul', `Laranja' and `Amarelo'  mean respectively `Blue', `Orange' and `Yellow'.	 }
+  \label{first_and_second_colors}
+\end{center}
+\end{figure}
 
-In doing so, it were pointed, mainly in psychologists' opinions, some necessities to be achieved. On general, they approved and viewed with good eyes the use of the said software as mean of treatment, but some of them manifested the following points for improving in a near version of software: first, the gaming has too much conflicting stimuli in some of its levels, secondly a general performance report is needed and thirdly moving targets to player. To discuss and present these improvements, it is necessary before to present briefly the application itself. In summary, Villa's application implements a gaming centered in matching  (like the third test of John Ridley Stroop, but more influenced by Golden Stroop modality) of a color name to an ink, but, most of times in a situation of conflicting stimuli, mainly a conflict between the color name and its background ink. So, eight levels lets the player/patient from the simplest matching of a color name and its ink without any conflict in the first level, to a difficult scenario with a series of adverse stimuli in the last one.
 
-\subsection{Defining requirements}
+However, now there is a new and quite different application, although both share some similarities. The main contribution of Villa's work is its feedback of psychologists, computer science students and non-ADHD children the tested the game, name only ``Cores'' (Colors, in Portuguese). Villa submitted multiple-answer questionnaires of usability analysis in order to check quality mixed with some open questions in order to present the positive aspects and possible ameliorations to another features. 
 
-A general score with response time and hit rates is also implemented, satisfying the requirement expressed by the psychologists. Then, these requirements may be grouped and presented as a list of requirements, including the functional and non-functional ones, the latter are disposed according to the patterns of ISO9126's norms.
+\subsection{Requirement Prospection}
+
+It was pointed out, mainly by psychologists' opinions, some necessities have to be achieved. In general they approved it and they had critical look on the working of the described software as meaningful treatment. Instead of: In general they approved and viewed with good eyes the use of the said softwear as mean of the treatment. But some of them manifested the following points for improving in newer version of software: first, the gaming has too much conflicting stimuli in some of its levels, secondly general performance report is needed and thirdly moving targets the player. Understanding the former application, it is possible to draw similarities and contrasts with the present application. In summary, Villa's application implements gaming centered in matching  (like the third test of John Ridley Stroop, but more influenced by Golden Stroop modality) of a color's name to an ink but most of times in a situation of conflicting stimuli, mainly a conflict between the color name and its background ink. Along eight levels the player/patient executes progressively-difficult tasks, from the simplest matching of a color name and its ink to a difficult scenario with a series of adverse stimuli in the last level.
+
+\subsection{Defining Requirements}
+
+A general score with the responding time and hit rates was implemented to the satisfaction of the requirement expressed by the psychologists. \citep{Villa}. Then the following requirements systematize and consolidate their impressions, according to some strict software engineering paradigms, including the functional and non-functional ones. The latter was disposed according to the patterns of ISO9126's norms.
 
 
-\begin{table}[h!] % The `h` means place the table here. The exclamation mark tells Latex to really try to place the table here. Use with caution! 
+\begin{table}[htp] % The `h` means place the table here. The exclamation mark tells Latex to really try to place the table here. Use with caution! 
 	
 	\begin{center}
 		\scalebox{0.85}{
@@ -24,20 +35,20 @@ A general score with response time and hit rates is also implemented, satisfying
 				\hline
 				\textbf{Number} & \textbf{As a <role>} & \textbf{As a <goal>} & \textbf{As a <result>} \\
 				\hline \hline
-				1.1 & Player & access menu & select new game\\
-				1.2 & Player & give the name & write his/her name \\
-				1.3 & System & generate board 
+				1 & Player & access game & select new game\\
+				1.1 & Player & give the name & write his/her name \\
+				1.2 & System & generate board 
 				& dispose `Stroop' memory cards \\
-				2.1 & Player & seek color name combination  & pass levels\\
-				2.2 & System &  manage hits and mistakes & improve difficulty slightly \\
-				2.3  & Player & advance levels until the end & conclude gaming \\
-				3.1 & Psychologist & see statistics &  must see player's name and numbers
+				2 & Player & seek color name combination  & pass levels\\
+				2.1 & System &  manage hits and mistakes & improve difficulty slightly \\
+				2.2  & Player & advance levels until the end & conclude gaming \\
+				3 & Psychologist & see statistics &  must store and see player's name and numbers
 				\\
 				\hline \hline
 			\end{tabular}}
 		\end{center}
 		\label{tab:highuserstories}
-		\caption{Table for the all Functional Requirements}
+		\caption{Table for the all functional requirements}
 	\end{table}
 	
 	\begin{table}[h!]
@@ -61,40 +72,112 @@ A general score with response time and hit rates is also implemented, satisfying
 					M1 & The system should be easy to extend and modify & Changeability\\ % Make measurable
 					\hline
 					\textbf{Portability} & & \\
-					P1 & The system should run on the majority of used android devices without additional resources & Installability\\
+					P1 & The system should run on the majority of used Android devices without additional resources & Installability\\
 					\hline \hline
 				\end{tabular} }
 			\end{center}
 			\label{tab:NonFuncReq}
-			\caption{Table for all Non-functional Requirements}
+			\caption{Table for all non-functional requirements}
 		\end{table}
+
+
+\subsection{Technologies Applied to Software Development}
 		
-\subsection{Technologies for software Development}
+The working technologies are only the basic infrastructure for software development. The codification of this mobile software was made in Java programming language driven by an Android mobile operating system. It was used the Android Studio framework in version 1.5.1 for the development. Implementing gradle, the package manager for android projects, and some other frameworks too, the lint prototypes validator and OpenJDK 7 (Java Developer Kit) for Java programming language infrastructure on a Debian 8 (Jessie) operating system desktop for development. \footnote{Although Google warns that using Open JDK instead the Oracle proprietary JDK may let problems to application, but there are no problems related to this in the application.} 
 		
-The employed technologies are only the basic infrastructure for software development. The codification of the mobile software was made in Java programming language driven for Android mobile operating system. It was used the Android Studio framework in version 1.5.1 for the development, implementing gradle, the package manager for android projects and some other frameworks too, the lint prototypes validator and OpenJDK 7 (Java Developer Kit) for Java programming language infrastructure on a Debian 8 (Jessie) operating system desktop for development. \footnote{Although Google warns that using Open JDK instead the Oracle proprietary JDK may let problems to application, but no problemas are related to this in our application.} 
-		
-As differences of traditional Java for desktops or other mobile platform, Android has some specific functions, as directed to call device resources or sensors, and runs in another virtual machine than common Java, the Dalvik Virtual Machine. Android has a stack of operating system levels, beginning from a linux kernel, passing to a device-components layer and other levels until arriving to a, as we can see in figure exposed below.
+What different is from traditional Java for desktops or other mobile platfoms. Is that Android has some specific functions, like: Calling device resources or sensors.  And it runs in another virtual machine than common Java called: the Dalvik Virtual Machine. Android has a stack of operating system levels, beginning from linux kernel, passing to a device-components layer and other levels until the graphic user interface domain. Which you can see in the picture below.
 		
 		\begin{figure}[htp]
 			\begin{center}
-				\includegraphics[scale=1.5]{chapters/desenvolvimento/img/android.png}
-				\caption{Android operating system layers.}
-				\label{Android-Schema}
+				\includegraphics[scale=0.65]{chapters/desenvolvimento/img/android.jpeg}
+				\caption{Android Operating System basic layer structure.}
+				\label{android}
 			\end{center}
 		\end{figure}
 		
-The Android environment was chosen, especially, because it is the platform currently most used around the World, particularly in Brazil, where our study was designed and most of 80\% of mobile devices are Android-based, as we have been said in our Introduction. The native application approach, against other types of hybrid approaches like cross-compile one, is adopted here as way for exploring all potentialities of the native devices standard computational resources. In this way, it will so difficult to develop many native applications driven for each mean mobile device's operating system, like IOs or Windows Phone, because it will demand more time and resources that a single coursework subject could afford.
-		
-So, our application is designed for Android environments to achieve a grater number of potential users. Besides, the experiment designed for this research comprises only a controlled and reduced group of people, since the software is an experimental application, although an older version is offered, for free, on Google Play App store or others, which contains dozens of millions of mobile applications of the most different finalities. Android platform are also more accessible to develop than other platform like IOs or Blackberry, for whom it is necessary a considerable number of environment requirements, like the exigence of a computer Mac for programming in Objective-C or Swift (languages that implements applications to IOs), that difficult the programming process. So that, there is a couple of reasons to adopt the Android environment to develop the application of this research, mainly, its popularity in Brazil and its relative practicality for development. 
-		
-The application is compatible from Android ``Kitkat'' (version 4.4) to the most recent versions (the most stable recent version in moment which is version 6 called ``Marshmallow''), that yields a compatibility ration in order of about 74\% of Android devices on a word-wide perspective, according to recent data \citep{android-official}. Our implementation also is driven to treat different resolutions of devices, using scalable images and other strategies, as we will discuss soon. In this case, tablets and smart-phones with different dimensions like Galaxy Nexus or Moto G and son could run as well the application presented here. To develop the game core features it is used the Libgdx Java library and engine. It is as free software engine that allows anyone program simple 2D or 3D games for various platforms, including Android. So, the proposed application, Mememory Stroop, combine libgdx to some native android native code and directives that are proper of this system. Libdgx offers a large set of facilities to better develop games for Android. One of the, maybe the most important, is its simplicity of operations and basic project's architecture and high integration by Java programming language syntax shared by both. Additionally, Android Studio IDE could easily manage Libgdx projects with gradle and implement extra native code as well. Furthermore, this Java game engine has powerful resources to implement game textures, sprites, events, loops, input-getting, abstract and non-abstract screens, and other features that let game development and gamification more accessible to non-specialists of that area.
-		
-\section{General features and application architecture}
+The Android environment was chosen especially, because it is currently the most used platform around the world. Particularly in Brazil, where this study was designed, and most of 80\% of mobile devices are based on  Android, which I mentioned earlier in the introduction. The native application approach, compared to other types of hybrid approaches. Like cross-compile one, was here used to explore all of its possibilities from native devices standard computational resources. In this way, it will be so difficult to develop many native applications driven for each mean mobile device's operating system. like IOs or Windows Phone, because it’s demanding more time and resources than a single coursework subject could afford.
 
-As mentioned before, Villa's ADHD gamification comprise multiple conflict situation in game that appeared undesirable to some of the psychologists. So these extent set of conflict mechanisms that is replaced by only two conflicting stimuli of classical Stroop Test a fixed memory game board, in order to promote a more focused set of stimuli. It was implemented in the present application. So, that's why our application is called MemoryStroop. The number of levels were reduced to four, beginning to the 2x2 board with card without conflicting stimuli in the first level to a Stroop conflict in the next level, that increases board to 4x4, 8x8 and 16x16 boards in each level. All negative stimuti that remained on old version, like ``game over'' event, were removed too: only positive stimuli such as commemorative music effects are implemented. 
 		
-%Below it is possible see the game implementation's architecture of Libgdx Java classes and extra native android class, that implements PDF exportation of game statistical data.
+The present application was designed for Android, to achieve a greater number of potential users. But the experiment, which was designed for this research. It only comprise a controlled, reduced group of people. Because the software is an experimental application. Although there are other versions, (like an older version of this one) offered for free in the App store from Google. Which containing dozens of millions of mobile applications with the most different finalities. But the platform from Android is more accessible for developing, compared to platforms like IOs or Blackberry. Because these systems need a considerable number of environmental requirements, which is an exigence  of a Mac computer to program in Objective-C or Swift (programing languages for applications in IOs). This is making programming in it more difficult. There are a couple of reasons to adopt the Android environment for developing the application of this research. Mainly because of its popularity in Brazil and the relative practicality for development.		
+The application from Android called ‘KitKat’(version 4.4) is compatible to the most recent versions (the most stable recent version in this moment is version 6 called ``Marshmallow''). Which yields a compatibility ratio of 74\% of Android devices on a word-wide perspective, according to recent data \citep{android-official}.The implementation also is driven to treat different resolutions of devices, using scalable images and other strategies, as it will be discussed soon. In this case, tablets and smart-phones with different dimensions like Galaxy Nexus or Moto G and son could run as well the application presented here. To develop the game core features, the Libgdx Java library engine was used. This is a free software engine that allows anyone to program simple games  in 2D or 3D for various platforms, including Android. The proposed application ‘Mememory Stroop’ is combining Libgdx to android native code and  has proper guidelines for this system. Libdgx offers a large set of facilities to develop games better for Android. Maybe the most important thing is: Its simplicity of operations, their basic project's architecture and the by both shared high integration Java programming language: Syntax.. Additionally, Android Studio IDE could easily manage Libgdx projects with gradle and implement extra native code as well. Furthermore, this Java game engine has powerful resources to implement: Game textures, sprites, events, loops, input-getting, abstract and non-abstract screens, and other features that let game development and gamification more accessible to non-specialists in that area.
+
 		
+\section{Application Architecture}
+
+As mentioned before, Villa's ADHD gamification comprise multiple conflict situations in a game that appeared undesirable to some psychologists. So these extensions sets of conflicting mechanisms was replaced by only two conflicting stimuli: The classical Stroop Test, and a fixed memory game board, in order to promote a more focused set of stimuli. It was added in the present application. That is why the application is called: MemoryStroop. \footnote{From many memory game approaches, the present application follows as a improved fork of Mathias Lux proposal avalaible in https://github.com/dermotte/memory-game-android and licensed by Apache 2.0 license.}.  All negative stimuli that remained on previous version (Villa's Colors), like ``game over'' event, were removed too: only positive stimuli such as commemorative music effects are implemented, no negative stimuli at all. The application class model is shown in the figure \ref{uml}:
+		
+				\begin{figure}[htp]
+					\begin{center}
+						\includegraphics[scale=0.65]{chapters/desenvolvimento/img/uml_2.png}
+						\caption{Elementary exhibition of class diagram using StarUML tool.}
+						\label{uml}
+					\end{center}
+				\end{figure}
+		
+The main class is the MemoryStroopGame, in which the engine is put in a loop to provide touch inputs and manage each reaction of game features like right or wrong card combination, level changing and so on. The screen classes are extended by a abstract class that defines is their common attributes and methods. The class GameScreen receives touches from tablet or smart screen and sends them to the MemoryStroopGame class. Besides it is possible see the game implementation's architecture of Libgdx Java classes and extra native android class, that implements TXT exportation of game statistical data. This functionality is called by a separate android java class that is not shown on main diagram. \textit{Memory Stroop} game is not designed to be played lonely by the young patients but instead this it is designed to be played in monitored way, in which the psychologist may observe actions and after child playing see the statistic results. This process is drawn in the following figure as sequence diagram \ref{sequence}.
+		
+						\begin{figure}[htp]
+							\begin{center}
+								\includegraphics[scale=0.65]{chapters/desenvolvimento/img/sequence.png}
+								\caption{Main flux of game loop in a sequence diagram using StarUML tool.}
+								\label{sequence}
+							\end{center}
+						\end{figure}
+
+\subsection{Game Workflow}
+
+The first screen of the game is the main menu, after that is the main menu, in which the player could switch off sound effects or consult the credits.
+
+						\begin{figure}[htp]
+							\begin{center}
+								\includegraphics[scale=0.35]{chapters/desenvolvimento/img/menu.png}
+								\caption{Main menu.}
+								\label{menu}
+							\end{center}
+						\end{figure}
+		
+After selecting new game option the player is asked to fill its name and the first level begins. In the first level some cards has some figures of fruits or cars to facilitate to children the understanding about how to match `Stroop Effect' Cards in this and in the next levels. In this level the Stroop cards has only a white background to facilitate even more. Figure \ref{lv1} shows the image of the level 1 with the commemoration message that appears when players win.
+
+						\begin{figure}[htp]
+							\begin{center}
+								\includegraphics[scale=0.35]{chapters/desenvolvimento/img/memorystroop0.jpg}
+								\caption{Level 1.}
+								\label{lv1}
+							\end{center}
+						\end{figure}
+
+The second level increments the difficult by removing images. The number of cards is maintained. Figure \ref{lv2} exposes this second leve.
+
+						\begin{figure}[htp]
+							\begin{center}
+								\includegraphics[scale=0.35]{chapters/desenvolvimento/img/memorystroop.jpg}
+								\caption{Level 2.}
+								\label{lv2}
+							\end{center}
+						\end{figure}
+
+The third level become more difficult by the increase of card quantity, and, sometimes, the background color of cards became different among them randomly, but after matching they return to the normal white background. Figure \ref{lv3} exposes this third level with 18 cards.
+
+
+						\begin{figure}[htp]
+							\begin{center}
+								\includegraphics[scale=0.35]{chapters/desenvolvimento/img/memorystroop2.jpg}
+								\caption{Level 3.}
+								\label{lv3}
+							\end{center}
+						\end{figure}
+
+The fourth and last level only increment the quantity of cards. Figure \ref{lv3} exposes this third level's cards on the moment of beginning of cards distribution, 32 at total.
+
+						\begin{figure}[htp]
+							\begin{center}
+								\includegraphics[scale=0.25]{chapters/desenvolvimento/img/memorystroop4.jpg}
+								\caption{Level 4.}
+								\label{lv4}
+							\end{center}
+						\end{figure}
+
+
 \section{Summary}
 		
-At this moment of the coursework, the point was to present to reader how it were set the computational and technical aspects of MemoryStroop. Thus the first necessity referred to the definition of requirements, which came from a previous application and research \citep{Villa}, improving some of main features presented by the psychologists about that application and research. The main requirement of those psychologists is the necessity to offer a limited set of conflicting stimuli during the Stroop Effect during the game. So far so good the functional and non-functional  requirements that orientate all implementation. Lastly, it was presented the architectural and practical engine of the gamification itself.
+The point was to explain the following aspects: The computational settings and technical aspects of MemoryStroop. The first necessity referred to the definition of requirements (this came from a previous application and research)was: \citep{Villa} Improving some of the main features presented by the psychologists for this application and research. The main requirement of those psychologists was the necessity to offer a limited set of conflicting stimuli in the Stroop Effect during the game. So far so good, the functional and non-functional  requirements that includes all implementations.  At the last point, the architectural and practical engine of the gamification was presented to the reader.
