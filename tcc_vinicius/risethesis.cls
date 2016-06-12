@@ -141,7 +141,7 @@
 
 % Portuguese
 \if\@language0
-  \gdef\@bachelordissertation{Graduate thesis}
+  \gdef\@bachelordissertation{Undergraduate thesis}
   \gdef\@mastersdissertation{Dissertação de Mestrado}
   \gdef\@phdqualifying{Monografia de Qualificação}
   \gdef\@phdproposal{Proposta de Tese de Doutorado}
@@ -351,7 +351,7 @@
 
 \gdef\@presentationtext{%
 \if\@language0
-A Graduate Thesis presented to
+A Undergraduate Thesis presented to
 \@programpt\ of \if\@showdepartment1\@departmentpt\ \else\@institutept\ \fi
 of \@universitypt\ in partial fulfillment of the
 requirements for the degree of Bsc. in \@majorfieldpt.
@@ -407,7 +407,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
   \if@openright\cleardoublepage\else\clearpage\fi
   \thispagestyle{empty}
   \begin{center}
-  \includegraphics[scale=1]{cinlogo} \\
+  \includegraphics[scale=1.5]{cinlogo} \\
   \vfill
   %\begin{minipage}{110mm}
     \begin{center}
@@ -421,7 +421,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
     \end{center}
   %\end{minipage}\\
   \vspace{1.4cm}
-  \includegraphics[width=1cm]{ufpelogo} \\
+  \includegraphics[width=2cm]{ufpelogo} \\
   %{\sf\large \@university
   %\if\@showinstitute1\\
   %\@institute\fi
@@ -433,7 +433,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
   \else
     {\fontfamily{times}\selectfont \tiny \@universityen\\}
   \fi
-  {\fontfamily{times}\selectfont \tiny ceapgmat@ufba.br\\}
+  {\fontfamily{times}\selectfont \tiny csi@ufba.br\\}
   {\fontfamily{times}\selectfont \tiny \url{wiki.dcc.ufba.br/DCC/}\\}
   \vskip\baselineskip
   \vskip\baselineskip
