@@ -13,7 +13,7 @@ It was pointed out, mainly by psychologists' opinions, some necessities have to 
 
 \subsection{Defining Requirements}
 
-A general score with the responding time and hit rates was implemented to the satisfaction of the requirement expressed by the some psychologists that evaluated another application \citep{Villa}. Then the following requirements systematize and consolidate their impressions, according to some strict software engineering paradigms, including the functional and non-functional ones. The latter was disposed according to the patterns of ISO9126's norms.
+A general score with the responding time and hit rates was implemented to the satisfaction of the requirement expressed by the some psychologists that evaluated another application \citep{Villa}. Then the following requirements systematize and consolidate their impressions, according to some strict software engineering paradigms, including the functional and non-functional ones. The latter was disposed according to the patterns of ISO9126's norms \citep{ISO9126a}.
 
 
 \begin{table}[htp] % The `h` means place the table here. The exclamation mark tells Latex to really try to place the table here. Use with caution! 
@@ -53,8 +53,8 @@ The functional requirements comprises each of game events and human interaction 
 					\textbf{Number} & \textbf{Requirements} & \textbf{Quality in use} \\
 					\hline \hline	
 					\textbf{Functionality} & & \\
-					F1 & The player should have only option to follow the game levels & Consistency\\
-					F2 & The system should each level's statistics & Consistency\\
+					F1 & The player should have a single flow to interact with game screens & Consistency of Interface\\
+					F2 & The system should furnish each level's statistics separately at the end of game & Consistency of Interface\\
 					\hline
 					\textbf{Usability} & & \\
 					U1 & A new player should be able to use the system after less than 5 minutes training & Learnability\\
@@ -71,11 +71,11 @@ The functional requirements comprises each of game events and human interaction 
 			\label{tab:NonFuncReq}
 			\caption{Table for all non-functional requirements}
 		\end{table}
-
+The first of all non-factional requirements F1, as well the second one, implements the norm of Consistency of Interface, that is a measure of quality of the good fitting of elements in interface according to ISO/ISEC 9126 norm. \cite{ISO9126a}.
 
 \subsection{Technologies Applied to Software Development}
 		
-The working technologies are only the basic infrastructure for software development. The codification of this mobile software was made in Java programming language driven by an Android mobile operating system. It was used the Android Studio framework in version 1.5.1 for the development. Implementing gradle, the package manager for android projects, and some other frameworks too, the lint prototypes validator and OpenJDK 7 (Java Developer Kit) for Java programming language infrastructure on a Debian 8 (Jessie) operating system desktop for development. \footnote{Although Google warns that using Open JDK instead the Oracle proprietary JDK may let problems to application, but there are no problems related to this in the application.} 
+The working technologies are only the basic infrastructure for software development. The codification of this mobile software was made in Java programming language driven by an Android mobile operating system. It was used the Android Studio framework in version 1.5.1 for the development. Implementing gradle, the package manager for android projects, and some other frameworks too, the lint prototypes checker and OpenJDK 7 (Java Developer Kit) for Java programming language infrastructure on a Debian 8 (Jessie) operating system desktop for development. \footnote{Although Google warns that using Open JDK instead the Oracle proprietary JDK may let problems to application, but there are no problems related to this in the application.} 
 		
 What differs from traditional Java for desktops or other mobile platfoms is that Android has some specific functions, like: Calling device resources or sensors.  And it runs in another virtual machine than common Java called: the Dalvik Virtual Machine. Android has a stack of operating system levels, beginning from Linux kernel, passing to a device-components layer and other levels until the graphic user interface domain. Which you can see in the Figure \ref{android}.
 		
