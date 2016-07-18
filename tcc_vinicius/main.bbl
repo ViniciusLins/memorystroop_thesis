@@ -82,6 +82,10 @@ Formoso, C.~T., Powell, J.~A., and dos Santos, A. (2012).
   construction sites.
 \newblock {\em Journal of Construction Research\/}.
 
+\bibitem[Fundamentals(2015)Fundamentals]{1_fundamentals_2015}
+Fundamentals, A. (2015).
+\newblock Application fundamentals | android developers.
+
 \bibitem[Ghanizadeh(2013)Ghanizadeh]{Ahma-2013}
 Ghanizadeh, A. (2013).
 \newblock Agreement between diagnostic and statistical manual of mental
@@ -105,6 +109,11 @@ Huotari, K. and Hamari, J. (2012).
 \newblock Defining gamification: A service marketing perspective.
 \newblock In {\em Proceeding of the 16th International Academic MindTrek
   Conference\/}, MindTrek '12, pages 17--22, New York, NY, USA. ACM.
+
+\bibitem[ISO\ 9126(2003)ISO\ 9126]{ISO9126a}
+ISO\ 9126 (2000-2003).
+\newblock {\em {ISO/IEC 9126 -- Software Product Quality, Parts 1-4}\/}.
+\newblock ISO.
 
 \bibitem[Johnstone(2013)Johnstone]{Johnstone-2013}
 Johnstone, S. (2013).
@@ -189,6 +198,13 @@ Shaw, R. (2005).
 \newblock Inhibition, adhd, and computer games: The inhibitory performance of
   children with adhd on computerized tasks and games.
 \newblock {\em Journal of Attention Disorders\/}, {\bf 8}.
+
+\bibitem[Song and Lee(2007)Song and Lee]{Song2007}
+Song, S. and Lee, J. (2007).
+\newblock {RETRACTED}: Key factors of heuristic evaluation for game design:
+  Towards massively multi-player online role-playing game.
+\newblock {\em International Journal of Human-Computer Studies\/}, {\bf 65}(8),
+  709--723.
 
 \bibitem[Stroop(1935)Stroop]{Studies1935}
 Stroop, J.~R. (1935).

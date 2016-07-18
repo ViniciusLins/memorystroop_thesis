@@ -10,20 +10,20 @@ A level-1 auxiliary file: chapters/conclusion/main.aux
 The style file: natbib.bst
 Database file #1: ref.bib
 Warning--entry type for "Villa" isn't style-file defined
---line 183 of file ref.bib
-I was expecting a `,' or a `}'---line 323 of file ref.bib
+--line 245 of file ref.bib
+I was expecting a `,' or a `}'---line 385 of file ref.bib
  :  
  :  publisher={American Psychiatric Association},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "Zich" isn't style-file defined
---line 395 of file ref.bib
-Repeated entry---line 1591 of file ref.bib
+--line 457 of file ref.bib
+Repeated entry---line 1653 of file ref.bib
  : @article{Zich
  :              ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "android-official" isn't style-file defined
---line 2213 of file ref.bib
+--line 2275 of file ref.bib
 A bad cross reference---entry "conf/mue/Yamakami13a"
 refers to entry "conf/mue/2013", which doesn't exist
 A bad cross reference---entry "conf/cts/Aud13"
@@ -64,6 +64,7 @@ Too many commas in name 1 of "Nemeth, D. G., Creveling, C. C., & Litchinsky, D."
 while executing---line 1207 of file natbib.bst
 Warning--empty year in android-official; set to ????
 Warning--empty journal in Bunchball
+Warning--empty author and editor in ISO9126a
 Warning--empty journal in Medina
 Too many commas in name 1 of "Nemeth, D. G., Creveling, C. C., & Litchinsky, D." for entry Nemeth
 while executing---line 1279 of file natbib.bst
@@ -101,45 +102,45 @@ while executing---line 1279 of file natbib.bst
 Too many commas in name 1 of "Santos, Fabio E. G.; Bastos, Angela P. Z.; Andrade, Leila C. V.; Revoredo, Kate; Mattos, Paulo" for entry brasileiros
 while executing---line 1279 of file natbib.bst
 Warning--empty booktitle in brasileiros
-You've used 38 entries,
+You've used 41 entries,
             2378 wiz_defined-function locations,
-            759 strings with 10480 characters,
-and the built_in function-call counts, 13858 in all, are:
-= -- 1438
-> -- 513
-< -- 41
-+ -- 152
-- -- 141
-* -- 962
-:= -- 2524
-add.period$ -- 135
-call.type$ -- 38
-change.case$ -- 229
-chr.to.int$ -- 37
-cite$ -- 45
-duplicate$ -- 655
-empty$ -- 954
-format.name$ -- 185
-if$ -- 2758
+            777 strings with 10918 characters,
+and the built_in function-call counts, 14915 in all, are:
+= -- 1550
+> -- 546
+< -- 43
++ -- 161
+- -- 150
+* -- 1045
+:= -- 2702
+add.period$ -- 145
+call.type$ -- 41
+change.case$ -- 247
+chr.to.int$ -- 40
+cite$ -- 49
+duplicate$ -- 704
+empty$ -- 1038
+format.name$ -- 198
+if$ -- 2974
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 33
-newline$ -- 183
-num.names$ -- 156
-pop$ -- 233
+missing$ -- 35
+newline$ -- 197
+num.names$ -- 164
+pop$ -- 250
 preamble$ -- 1
-purify$ -- 230
+purify$ -- 249
 quote$ -- 0
-skip$ -- 483
+skip$ -- 517
 stack$ -- 0
-substring$ -- 679
-swap$ -- 110
+substring$ -- 742
+swap$ -- 116
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 330
-warning$ -- 7
-while$ -- 131
+type$ -- 354
+warning$ -- 8
+while$ -- 139
 width$ -- 0
-write$ -- 468
+write$ -- 503
 (There were 36 error messages)

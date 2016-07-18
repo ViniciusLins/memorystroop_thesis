@@ -17,7 +17,7 @@ A general score with the responding time and hit rates was implemented to the sa
 
 
 \begin{table}[htp] % The `h` means place the table here. The exclamation mark tells Latex to really try to place the table here. Use with caution! 
-	
+\label{tab:highuserstories}
 	\begin{center}
 		\scalebox{0.85}{
 			\begin{tabular}{ l  l  l  l }
@@ -36,16 +36,13 @@ A general score with the responding time and hit rates was implemented to the sa
 				\hline \hline
 			\end{tabular}}
 		\end{center}
-		\label{tab:highuserstories}
 		\caption{Table for the all functional requirements}
 		
-The functional requirements comprises each of game events and human interaction with the system. They will be verified on Chapter \ref{ch:experiment} alongside the presentation of the practical research with computer science specialists.
-
+The functional requirements comprises each of game events and human interaction with the system. The are presented as user story-like requirements formatting as way to be more readable by some of the practical `stakeholders' -- the psychologists.  The first require They will be verified on Chapter \ref{ch:experiment} alongside the presentation of the practical research with computer science specialists.
 	\end{table}
 	
 	\begin{table}[h!]
-
-		
+			\label{tab:NonFuncReq}
 		\begin{center}
 			\scalebox{0.6}{%
 				\begin{tabular}{ l  l  l }
@@ -54,7 +51,7 @@ The functional requirements comprises each of game events and human interaction 
 					\hline \hline	
 					\textbf{Functionality} & & \\
 					F1 & The player should have a single flow to interact with game screens & Consistency of Interface\\
-					F2 & The system should furnish each level's statistics separately at the end of game & Consistency of Interface\\
+					F2 & The system should furnish statistics of each level separately at the end of game & Consistency of Interface\\
 					\hline
 					\textbf{Usability} & & \\
 					U1 & A new player should be able to use the system after less than 5 minutes training & Learnability\\
@@ -68,10 +65,28 @@ The functional requirements comprises each of game events and human interaction 
 					\hline \hline
 				\end{tabular} }
 			\end{center}
-			\label{tab:NonFuncReq}
+
 			\caption{Table for all non-functional requirements}
+In following subsections, it is presented each one of the non-functional requirements. They will be checked in a practical experiment involving computer scientist in the chapter \ref{ch:experiment}.
+
+\subsubsection{Non-Functional requirement F1}
+
+The first of all non-factional requirements F1, as well the second one, implements the norm of Consistency of Interface, that is a measure of quality of the good fitting of elements in interface according to principles of ISO/ISEC 9126 norm and some of Nielsen's heruristics \cite{ISO9126a}. To be consistent implies that some design should produce ideas or prospect of actions which are coherent with the expected actions to be done in it.
+% Clarice de Souza
+
+Because of that, it is desirable that the game's interface does not confuse players with other activities than the correct card matching. By analogy to defines metrics of \cite{ISO9126a}, this requirement achievement could be expressed by a score of 0.8 to positive responses in the survey question of the practical experiment in \ref{ch:experiment}. 
+
+\subsubsection{Non-Functional requirement F2}
+
+To satisfy the well data visualization for the secondary actor of system (the psychologist), it is necessary furnish him/her a consistent layout of statistics of each level separately. As the previous requirement, it is expected a positive score of more than 0.8 upon the total of answers.
+
+\subsubsection{Non-Functional requirement M1}
+
+This requirement is about the easiness of learning the game. The player must fast get know about how the game proper engine works in the shortest as possible time interval, in this case, five minutes. To check this requiresent, according to the correspondent metric in the \cite{ISO9126a}.
+
 		\end{table}
-The first of all non-factional requirements F1, as well the second one, implements the norm of Consistency of Interface, that is a measure of quality of the good fitting of elements in interface according to ISO/ISEC 9126 norm. \cite{ISO9126a}.
+
+
 
 \subsection{Technologies Applied to Software Development}
 		
