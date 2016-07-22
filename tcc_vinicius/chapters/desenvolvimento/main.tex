@@ -55,7 +55,7 @@ The functional requirements comprises each of game events and human interaction 
 					\hline
 					\textbf{Usability} & & \\
 					U1 & A new player should be able to use the system after less than 5 minutes training & Learnability\\
-					U2 & The system should be perceived as easy to use by at least 85\% of its users & Understandability \\
+					U2 & The system should be perceived as easy to use by the majority of its users & Understandability \\
 					\hline
 					\textbf{Maintainability} & & \\
 					M1 & The system should be easy to extend and modify & Changeability\\ % Make measurable
@@ -72,20 +72,30 @@ In following subsections, it is presented each one of the non-functional require
 \subsubsection{Non-Functional requirement F1}
 
 The first of all non-factional requirements F1, as well the second one, implements the norm of Consistency of Interface, that is a measure of quality of the good fitting of elements in interface according to principles of ISO/ISEC 9126 norm and some of Nielsen's heruristics \cite{ISO9126a}. To be consistent implies that some design should produce ideas or prospect of actions which are coherent with the expected actions to be done in it.
-% Clarice de Souza
 
-Because of that, it is desirable that the game's interface does not confuse players with other activities than the correct card matching. By analogy to defines metrics of \cite{ISO9126a}, this requirement achievement could be expressed by a score of 0.8 to positive responses in the survey question of the practical experiment in \ref{ch:experiment}. 
+Because of that, it is desirable that the game's interface does not confuse players with other activities than the correct card matching. By analogy to defines metrics of \cite{ISO9126a}, this requirement achievement could be expressed by a high score of positive responses in the survey question (1 and 2) of the practical experiment in \ref{ch:experiment}. 
 
 \subsubsection{Non-Functional requirement F2}
 
-To satisfy the well data visualization for the secondary actor of system (the psychologist), it is necessary furnish him/her a consistent layout of statistics of each level separately. As the previous requirement, it is expected a positive score of more than 0.8 upon the total of answers.
+To satisfy the well data visualization for the secondary actor of system (the psychologist), it is necessary furnish him/her a consistent layout of statistics of each level separately. As the previous requirement, there are questions (3 and 4) in the practical survey to evaluate that feature.
+
+\subsubsection{Non-Functional requirement U1}
+
+This requirement is about the easiness of learning the game. The player must fast get know about how the game proper engine works in the shortest as possible time interval, in this case, five minutes. To check this requirement,  two questions in the experiment (5 and 6) were directed.
+
+\subsubsection{Non-Functional requirement U2}
+
+After the problem of time of learning, the current flux of gaming should be easy to understand every time, i. e., the player should feel easy to understand the new challenges of other levels. This requirement
 
 \subsubsection{Non-Functional requirement M1}
 
-This requirement is about the easiness of learning the game. The player must fast get know about how the game proper engine works in the shortest as possible time interval, in this case, five minutes. To check this requiresent, according to the correspondent metric in the \cite{ISO9126a}.
+The code should be evaluated and incremented by the community of programmers. Because of that, all software artifacts need to be accessible in all ways for  the community. This requirement could not be tested in an usability survey.
 
-		\end{table}
+\subsubsection{Non-Functional requirement P1}
 
+If the proposed application will not target main android operating systems, the portability of systems would not be achieved. Libraries and other programming aspect to be chosen must satisfy this requirement. As in the previous assignment, this requirement could not be tested in an usability survey.
+
+\end{table}
 
 
 \subsection{Technologies Applied to Software Development}
